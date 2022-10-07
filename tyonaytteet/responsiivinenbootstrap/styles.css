@@ -1,0 +1,82 @@
+body {
+    background-image: url("media/mustakuva2.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color:white;
+}
+h2 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+p1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.td1 {
+    color:white;
+}
+.td2 {
+    color: white;
+}
+.th1 {
+    color: white;
+}
+table, th, td, tr {
+    border-color: 1px solid lightgray;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    width: auto;
+    height: auto;
+    padding: 8px;
+}
+.teksti1 {
+    scale: 100%;
+    width: 60%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.teksti2 {
+    scale: 100%;
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.otsikko1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.otsikko2 {
+    font-family: Arial, Helvetica, sans-serif;
+    scale: 100%;
+    color: white;
+}
+.otsikko3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.kriteerit1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.linkit {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tutkintolista {
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: 1px solid lightgray;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    width: auto;
+    height: auto;
+    padding: 8px;
+}
+img {
+    border-radius: 20px;
+    width: 100%
+}

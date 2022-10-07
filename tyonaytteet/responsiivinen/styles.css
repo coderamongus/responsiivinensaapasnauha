@@ -1,0 +1,129 @@
+body {
+    background-image: url("media/mustakuva.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    border-radius: 20px;
+    width: 100%
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+    li {
+    float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+    .active {
+        background-color: #04AA6D;
+    }
+h1 {
+    color:white
+}
+h2 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+p1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.td1 {
+    color:white;
+}
+.td2 {
+    color: white;
+}
+.th1 {
+    color: white;
+}
+table, th, td, tr {
+    border-color: 1px solid lightgray;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    width: auto;
+    height: auto;
+    padding: 8px;
+}
+.teksti1 {
+    scale: 100%;
+    width: 60%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.teksti2 {
+    scale: 100%;
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.otsikko1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.otsikko2 {
+    font-family: Arial, Helvetica, sans-serif;
+    scale: 100%;
+}
+.otsikko3 {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.kriteerit1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.linkit {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tutkintolista {
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: 1px solid lightgray;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    width: auto;
+    height: auto;
+    padding: 8px;
+}
+
+.button {
+    background-color: #333; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+.button:hover {
+    background-color: #111;
+}
+.button:active {
+    background-color: #04AA6D ;
+}
+@media only screen and (max-width: 600px) {
+    .button {
+        width: 100%;
+    }
+  }
